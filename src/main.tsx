@@ -10,17 +10,19 @@ function initWidget() {
     return;
   }
 
+  const theme =
+    (rootContainer.getAttribute("data-theme") as "light" | "dark") || "system";
+
   createRoot(rootContainer).render(
     <StrictMode>
-      <App />
+      <App theme={"light"} />
+      <App theme={"dark"} />
     </StrictMode>
   );
 }
 
-// Auto-initialize when DOM is ready
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", initWidget);
 } else {
-  // DOM already loaded
   initWidget();
 }

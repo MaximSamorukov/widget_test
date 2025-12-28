@@ -41,3 +41,8 @@
   min-height: 64px;
   padding: var(--spacing-2) var(--spacing-3);
 }
+
+.inset {
+  background-color: var(--background-color);
+  color: var(--field-text-color);
+}
