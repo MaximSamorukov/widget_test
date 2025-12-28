@@ -1,9 +1,6 @@
 @import "../../theme.css";
 @import "../../utilities.css";
 
-body {
-  background-color: #1b1b1b;
-}
 
 .react-aria-Meter {
   display: grid;
