@@ -2,8 +2,8 @@
 import {
   Input,
   TextField as AriaTextField,
-  TextFieldProps as AriaTextFieldProps,
-  ValidationResult,
+  type TextFieldProps as AriaTextFieldProps,
+  type ValidationResult,
 } from "react-aria-components";
 import { Label, FieldError, Description } from "../Form/Form";
 import "./TextField.css";

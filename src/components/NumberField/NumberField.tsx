@@ -3,8 +3,8 @@ import {
   Group,
   Input,
   NumberField as AriaNumberField,
-  NumberFieldProps as AriaNumberFieldProps,
-  ValidationResult,
+  type NumberFieldProps as AriaNumberFieldProps,
+  type ValidationResult,
 } from "react-aria-components";
 import { Button } from "../Button/Button";
 import { Plus, Minus } from "lucide-react";

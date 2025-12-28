@@ -1,14 +1,14 @@
 "use client";
 import {
   Form as RACForm,
-  FormProps,
-  LabelProps,
+  type FormProps,
+  type LabelProps,
   Label as RACLabel,
-  FieldErrorProps,
+  type FieldErrorProps,
   FieldError as RACFieldError,
-  ButtonProps,
+  type ButtonProps,
   Button,
-  TextProps,
+  type TextProps,
 } from "react-aria-components";
 import "./Form.css";
 import { Text } from "../Content/Content";
