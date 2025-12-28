@@ -17,7 +17,8 @@ export default defineConfig({
         assetFileNames: "form-widget.css",
       },
     },
-    // Don't externalize dependencies - bundle everything
-    // This makes the widget self-contained for CDN usage
+  },
+  define: {
+    "process.env.NODE_ENV": '"production"',
   },
 });
